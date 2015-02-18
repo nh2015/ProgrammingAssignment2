@@ -12,6 +12,9 @@
 ##
 ## To obtain the inverse of A when needed, use 'cacheSolve(A.cached)'
 ##
+## Acknowledgements: Used the 'makeVector' and 'cachemean' funtions shown in 
+## Assignment 2 example as the template for makeCacheMatrix and cacheSolve 
+## functions respectively
 
 
 ## Function to create the cached matrix "object" to hold the original matrix, its
