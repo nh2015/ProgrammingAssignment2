@@ -6,11 +6,12 @@
 ## do not perform any additional validation to verify that input matrix is
 ## invertible
 ##
-## To cache the inverse of a matrix 'A', first create the corresponding cached
-## matrix object 'A.cached' using 'A.cached <- makeCacheMatrix()' and then 
-## initialize it with original matrix as 'A.cached$set(A)'
+## To cache the inverse of a matrix 'A', first create a cached
+## matrix object 'm.cached' using 'm.cached <- makeCacheMatrix(A)'; To re-use 
+## m.cached to invert a different matrix B, re-iniitalize it via 
+## 'm.cached$set(B)'
 ##
-## To obtain the inverse of A when needed, use 'cacheSolve(A.cached)'
+## To obtain the inverse of A when needed, use 'cacheSolve(m.cached)'
 ##
 ## Acknowledgements: Used the 'makeVector' and 'cachemean' funtions shown in 
 ## Assignment 2 example as the template for makeCacheMatrix and cacheSolve 
